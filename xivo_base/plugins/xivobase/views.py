@@ -5,5 +5,5 @@ xivobase = Blueprint('xivobase', __name__, template_folder='templates')
 
 @xivobase.route("/")
 def index():
-    return render_template('index.html')
+    return render_template('xivobase.html')
 
